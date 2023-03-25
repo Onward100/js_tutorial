@@ -1,1 +1,1 @@
-# js_tutorial
+10days of coding js
