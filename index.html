@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>js tutorial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>100days of javascript coding</h1>
+    <p id="click">Click on the button below!</p>
+    <button type="button" onclick='document.getElementById("click").innerHTML = "Hello Javascript!"'>Click me!</button>
+
+    <h2>This task turns on a bulb and of it as well on clicking the buttons</h2>
+    <button type="button" onclick="getElementById('bulb').src = ('pic_bulbon.gif')">Turn on bulb</button>
+    <img id="bulb" src="pic_bulboff.gif">
+    <button type="butt" onclick="getElementById('bulb').src = ('pic_bulboff.gif') ">Turn off bulb</button>
+
+    <h2 id="style">Using Js to change HTML style</h2>
+    <button type="button" onclick="document.getElementById('style').style.color= ('blue')">Click me!</button>
+    <button type="button" onclick="document.getElementById('style').style.fontSize = ('35px')">Click me!</button>
+    <h2>My first Js time setup</h2>
+    <button type="button" onclick="document.getElementById('time').innerHTML = Date()">Click here to see date and time</button>
+    <p id="time"></p>
+
+    <p id="demo">javascript statement</p>
+    <button type="button" onclick="document.getElementById ('demo').innerText = ('Write Dolly')">Write dolly when clicked</button>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <button type="button" onclick= "myFunction()">Click me</button>
+
+    <p id="demo4"></p>
+    <script src="index.js"></script>
 </body>
 </html>
